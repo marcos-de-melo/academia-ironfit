@@ -217,5 +217,53 @@ iframe {
 
 
 
+/* EQUIPAMENTO*/
+
+.equipamento article {
+    float: left;
+    width: 22.75%;
+    margin-right: 3%;
+}
+
+.equipamento article:last-of-type {
+    margin-right: 0;
+}
+
+.equipamento article h1 {
+    font-size: 1.4em;
+    font-weight: 600;
+    color: #404040;
+    margin-top: 20px;
+
+}
+
+.equipamento article p {
+    font-size: 0.875em;
+    margin: 10px 0;
+}
+
+.promocao {
+    background: #181818;
+    text-align: center;
+    color: #fff;
+}
+
+.promocao a {
+    display: inline-block;
+    padding: 10px 15px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    background: #dc0a17;
+    transition: background 0.5s ease;
+}
+
+.promocao a:hover {
+    background: #ab0812;
+    border-color: #7a060d;
+}
+
+
+
 
 
