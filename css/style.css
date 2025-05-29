@@ -264,6 +264,89 @@ iframe {
 }
 
 
+/*TREINOS*/
 
+.treinos_tipo {
+    float: left;
+    width: 65%;
+    padding-right: 3%;
+}
+
+.treinos_tipo article {
+    float: left;
+    width: 48%;
+    margin: 0 4% 4% 0;
+}
+
+.treinos_tipo article:nth-of-type(2n+0) {
+    margin-right: 0;
+}
+
+
+.treinos_tipo article img {
+    float: left;
+    margin-right: 15px;
+    width: 50%;
+}
+
+.treinos_tipo article h1 {
+    font-size: 1em;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #404040;
+}
+
+.treinos_tipo article p {
+    font-size: 0.875em;
+
+}
+
+.treinos_comentarios {
+    float: right;
+    width: 35%;
+    padding: 30px;
+    background: #eee;
+    border-bottom-width: 10px;
+    border-bottom-color: #fcb823;
+    border-bottom-style: solid;
+}
+
+
+.treinos_comentarios .title {
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 5px solid #ccc;
+    margin: 0 35px;
+
+}
+
+.comentario {
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.comentario img {
+    float: left;
+    width: 20%;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.comentario h1 {
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+
+}
+
+.comentario p {
+    font-size: 0.8em;
+
+}
 
 
